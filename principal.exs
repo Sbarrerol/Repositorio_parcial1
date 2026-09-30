@@ -6,9 +6,9 @@
 #   investigacion.exs, mediciones.exs, mensajeria.exs,
 #   Elixir.Util.beam y Elixir.Util2.beam
 #
-# Para ejecutar (todo en una sola línea):
+# Para ejecutar, parado en esa misma carpeta:
 #
-#   elixir -r datos.exs -r validacion.exs -r liquidacion.exs -r ranking.exs -r analisis.exs -r entrada.exs -r reportes.exs -r comprobante.exs -r investigacion.exs -r mediciones.exs -r mensajeria.exs principal.exs
+#   elixir principal.exs
 #
 # ---------------------------------------------------------------------------
 # ABSTRACCIÓN
@@ -35,5 +35,18 @@
 #   - Util2.ordenar/3                      ordenar una colección
 #   - Util2.convertir_coleccion_mensaje/2  convertir una colección en líneas de texto
 # ---------------------------------------------------------------------------
+
+# Carga cada módulo desde su propio archivo, en el orden en que se necesitan.
+Code.require_file("datos.exs")
+Code.require_file("validacion.exs")
+Code.require_file("liquidacion.exs")
+Code.require_file("ranking.exs")
+Code.require_file("analisis.exs")
+Code.require_file("entrada.exs")
+Code.require_file("reportes.exs")
+Code.require_file("comprobante.exs")
+Code.require_file("investigacion.exs")
+Code.require_file("mediciones.exs")
+Code.require_file("mensajeria.exs")
 
 Mensajeria.main()
