@@ -1,4 +1,4 @@
-# Integrantes: [Nombre 1], [Nombre 2], [Nombre 3]
+# Integrantes: [Sofia Aviles Diaz], [Santiafo Barrero Lopez], [Yvette Daniela Campo Osorio]
 #
 # En la misma carpeta deben estar:
 #   principal.exs, datos.exs, validacion.exs, liquidacion.exs, ranking.exs,
@@ -12,8 +12,9 @@
 #
 # ---------------------------------------------------------------------------
 # ABSTRACCIÓN
-#   ¿Qué se solicita?  Validar los servicios, liquidar a cada repartidor,
-#                      mostrar los reportes R1 a R8 y el comprobante de un repartidor.
+#   ¿Qué se solicita?   Se solicita crear un programa que valide los servicios de una empresa de mensajería,
+#           calcule el pago semanal de sus repartidores y genere los resportes solicitados. También debe permitir 
+#           ingresar un servicio adicional y generar un comprobante de pago para un repartidor.
 #   ¿Qué información es relevante?  Repartidores, zonas, servicios (con posibles
 #                      errores), parámetros de negocio y un servicio adicional opcional.
 #
