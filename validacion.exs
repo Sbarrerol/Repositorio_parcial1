@@ -1,4 +1,4 @@
-# Integrantes: [Sofia Aviles Diaz], [Santiafo Barrero Lopez], [Yvette Daniela Campo Osorio]
+# Integrantes: [Sofia Aviles Diaz], [Santiago Barrero Lopez], [Yvette Daniela Campo Osorio]
 
 defmodule Validacion do
   # Valores del negocio guardados como atributos del módulo

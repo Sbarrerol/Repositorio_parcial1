@@ -1,4 +1,4 @@
-# Integrantes: [Sofia Aviles Diaz], [Santiafo Barrero Lopez], [Yvette Daniela Campo Osorio]
+# Integrantes: [Sofia Aviles Diaz], [Santiago Barrero Lopez], [Yvette Daniela Campo Osorio]
 
 defmodule Ranking do
   # Ordena una lista de mapas (que tengan el campo :nombre).
