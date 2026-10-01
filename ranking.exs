@@ -1,4 +1,4 @@
-# Integrantes: [Nombre 1], [Nombre 2], [Nombre 3]
+# Integrantes: [Sofia Aviles Diaz], [Santiafo Barrero Lopez], [Yvette Daniela Campo Osorio]
 
 defmodule Ranking do
   # Ordena una lista de mapas (que tengan el campo :nombre).

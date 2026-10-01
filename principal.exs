@@ -1,10 +1,5 @@
 # Integrantes: [Sofia Aviles Diaz], [Santiafo Barrero Lopez], [Yvette Daniela Campo Osorio]
 #
-# En la misma carpeta deben estar:
-#   principal.exs, datos.exs, validacion.exs, liquidacion.exs, ranking.exs,
-#   analisis.exs, entrada.exs, reportes.exs, comprobante.exs,
-#   investigacion.exs, mediciones.exs, mensajeria.exs,
-#   Elixir.Util.beam y Elixir.Util2.beam
 #
 # Para ejecutar, parado en esa misma carpeta:
 #
@@ -15,8 +10,10 @@
 #   ¿Qué se solicita?   Se solicita crear un programa que valide los servicios de una empresa de mensajería,
 #           calcule el pago semanal de sus repartidores y genere los resportes solicitados. También debe permitir 
 #           ingresar un servicio adicional y generar un comprobante de pago para un repartidor.
-#   ¿Qué información es relevante?  Repartidores, zonas, servicios (con posibles
-#                      errores), parámetros de negocio y un servicio adicional opcional.
+#   ¿Qué información es relevante?  La información releante son los datos de los respartidores, las zonas, y los servicios.
+#           También son impostantes los kilómetros recorridos, los retrasos, los días trabajados,el uso de bicicleta y los
+#           parámetros económicos establecidos por la empresa, ya que estos datos permiten validar los servicios, Calcular
+#           bonificaciones, descuentos, alquileres y el pago final.
 #
 # DESCOMPOSICIÓN
 #   - Validar los servicios (válidos / rechazados)          -> módulo Validacion
@@ -31,10 +28,10 @@
 #   - Orquestar todo lo anterior (el "main")                  -> módulo Mensajeria
 #
 # RECONOCIMIENTO DE PATRONES (funciones de Util2)
-#   - Util2.ingresar/2                     leer un texto del teclado
-#   - Util2.mostrar/2                      mostrar un mensaje
-#   - Util2.ordenar/3                      ordenar una colección
-#   - Util2.convertir_coleccion_mensaje/2  convertir una colección en líneas de texto
+#   - Util2.ingresar/2                     leer los datos ingresados por el usuario, como el servicio adicional y código del repartidor
+#   - Util2.mostrar/2                      mostrar información al usuario,como los resportes, mensajes de validación y comprobantes.
+#   - Util2.ordenar/3                      ordenar una colección, por ejemplo, los repartidores por el valor neto de mayor  a menor.
+#   - Util2.convertir_coleccion_mensaje/2  convertir las colecciones de resultados en texto para poder msotrarlas en los resportes.
 # ---------------------------------------------------------------------------
 
 # Carga cada módulo desde su propio archivo, en el orden en que se necesitan.

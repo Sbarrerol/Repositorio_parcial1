@@ -1,4 +1,4 @@
-# Integrantes: [Nombre 1], [Nombre 2], [Nombre 3]
+# Integrantes: [Sofia Aviles Diaz], [Santiafo Barrero Lopez], [Yvette Daniela Campo Osorio]
 
 defmodule Investigacion do
   def empresa_aliada do
