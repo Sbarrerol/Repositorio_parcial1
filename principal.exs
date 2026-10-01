@@ -4,7 +4,9 @@
 # Para ejecutar, parado en esa misma carpeta:
 #
 #   elixir principal.exs
-#
+# Ejecutar:
+#         elixir -r datos.exs -r validacion.exs -r liquidacion.exs -r ranking.exs -r analisis.exs -r entrada.exs -r 
+#         reportes.exs -r comprobante.exs -r investigacion.exs -r mediciones.exs -r mensajeria.exs principal.exs
 # ---------------------------------------------------------------------------
 # ABSTRACCIÓN
 #   ¿Qué se solicita?   Se solicita crear un programa que valide los servicios de una empresa de mensajería,
